@@ -1,0 +1,49 @@
+body {
+	background-color: #ededed;
+  margin: 0;
+  font:16px sans-serif,arial;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dd {
+	margin: 0;
+}
+
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+input {
+	padding: 0;
+}
+
+a,
+a:hover {
+	text-decoration: none
+}
+
+a:hover {
+	color: #395699;
+	transition: all .3s ease-out
+}
+
+.clearfix:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
