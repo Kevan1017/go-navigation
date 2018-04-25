@@ -34,7 +34,38 @@
   color: #323232
 }
 
+.main_block {
+  margin-top:25px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 15px;
+  /* padding: 20px; */
+  box-shadow: 0px 0px 10px rgb(204, 203, 203);
+}
+
 .main_block .mb_header{
-  height: 20px;
-  border: 1px solid red;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid red;
+}
+.main_block .mb_header ul li{
+  float: left;
+  width: 106px;
+  text-align: center;
+  /* background-color: #F8B595; */
+}
+
+.main_block .mb_header ul li:first-child{
+  border-top-left-radius: 15px;
+  background-color: red;
+}
+.main_block .mb_header ul li:last-child{
+  border-top-right-radius: 15px;
+}
+
+.main.block .mb_content div{
+  float: left;
+  width: 106px;
+  height: 100px;
+  background-color: red;
 }
