@@ -1,71 +1,230 @@
 .container {
-  width: 1060px;
+  width: 1200px;
   margin: 0 auto;
 }
 
-.container h1{
+.container h1 {
   margin: 20px 0 20px 0;
   text-align: center;
-  color: #4bc2c5
+  color: #4bc2c5;
 }
-.anchor_block {
-  height: 100px;
-  background-color: #fff;
+
+.container form {
+  margin: 20px 0 10px 0;
+  text-align: center;
+}
+.container .select {
+  width: 100px;
+  height: 45px;
   border-radius: 15px;
-  padding: 20px;
+  border: none;
+}
+
+.container .search {
+  width: 700px;
+  height: 45px;
+  font-size: 18px;
+  padding-left: 15px;
+  border-radius: 15px;
+  outline: none;
+  border-style: outset;
+  border: none;
+}
+
+.container .btn {
+  font-size: 18px;
+  width: 100px;
+  height: 45px;
+  border-radius: 15px;
+  border: none;
+  background-color: #fff;
+}
+
+.container .btn:hover {
+  cursor: pointer;
+  background-color: #3b3f50;
+  color: #fff;
+}
+
+.s_btn {
+  margin-top: 10px;
+  padding-right: 190px;
+}
+
+.s_btn span {
+  display: inline-block;
+  width: 100px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 15px;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+.s_btn span.current {
+  background-color: #3b3f50;
+  color: #fff;
+}
+
+.s_btn span:hover {
+  cursor: pointer;
+  background-color: #3b3f50;
+  color: #fff;
+}
+
+.anchor {
+  background-color: #fff;
+  border-radius: 10px;
   box-shadow: 0px 0px 10px rgb(204, 203, 203);
 }
 
-.anchor_block ul li{
+.anchor ul li {
   float: left;
-  width: 102px;
-  height: 50px;
-  line-height: 50px;
+  width: 120px;
+  height: 51px;
+  line-height: 51px;
   text-align: center;
 }
 
-.anchor_block ul li:hover{
+.anchor ul li:hover {
   cursor: pointer;
-  border-radius: 15px;
+  border-radius: 10px;
   background-color: #f1f2f8;
 }
 
-.anchor_block ul li a{
-  color: #323232
+.anchor ul li a {
+  color: #323232;
 }
 
-.main_block {
-  margin-top:25px;
-  height: 200px;
+.common {
+  margin-top: 20px;
+  /* height: 294px; */
   background-color: #fff;
   border-radius: 15px;
-  /* padding: 20px; */
   box-shadow: 0px 0px 10px rgb(204, 203, 203);
 }
 
-.main_block .mb_header{
-  height: 50px;
-  line-height: 50px;
-  border-bottom: 1px solid red;
+.common .header {
+  height: 44px;
+  border-bottom: 1px solid #e7eff3;
 }
-.main_block .mb_header ul li{
-  float: left;
-  width: 106px;
+.common .header h3 {
+  font-weight: 400;
+  background-color: #3b3f50;
+  width: 120px;
+  line-height: 45px;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
   text-align: center;
-  /* background-color: #F8B595; */
 }
 
-.main_block .mb_header ul li:first-child{
-  border-top-left-radius: 15px;
-  background-color: red;
-}
-.main_block .mb_header ul li:last-child{
-  border-top-right-radius: 15px;
-}
-
-.main.block .mb_content div{
+.common .content ul li {
   float: left;
-  width: 106px;
-  height: 100px;
-  background-color: red;
+  width: 120px;
+  height: 51px;
+  line-height: 51px;
+  text-align: center;
+}
+
+.common .content ul li a {
+  color: #323232;
+}
+
+.common .content ul li:hover {
+  background-color: #e7eff3;
+  border-radius: 10px;
+}
+
+.classify {
+  margin-top: 20px;
+}
+
+.category {
+  float: left;
+  width: 220px;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.c_header {
+  height: 44px;
+  border-bottom: 1px solid #e7eff3;
+}
+
+.c_header h3 {
+  font-weight: 400;
+  background-color: #3b3f50;
+  width: 110px;
+  line-height: 45px;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  text-align: center;
+}
+
+.c_content {
+  height: 255px;
+  width: 220px;
+}
+.c_content li {
+  float: left;
+  width: 110px;
+  height: 51px;
+  text-align: center;
+  line-height: 51px;
+}
+
+.c_content li:hover {
+  background-color: #e7eff3;
+  cursor: pointer;
+}
+
+.c_content .current {
+  color: #4bc2c5;
+}
+.site {
+  float: right;
+  width: 960px;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.s_header {
+  height: 44px;
+  border-bottom: 1px solid #e7eff3;
+}
+
+.s_header h3 {
+  font-weight: 400;
+  background-color: #3b3f50;
+  width: 120px;
+  line-height: 45px;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  text-align: center;
+}
+
+.s_content ul li {
+  float: left;
+  width: 120px;
+  height: 51px;
+  line-height: 51px;
+  text-align: center;
+}
+
+.s_content ul li a {
+  color: #323232;
+}
+
+.s_content ul li:hover {
+  background-color: #e7eff3;
+  border-radius: 10px;
+}
+
+.s_content ul{
+  display: none;
+}
+.s_content ul:first-child{
+  display: block;
 }

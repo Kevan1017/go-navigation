@@ -17,13 +17,21 @@
 <body>
   <div class="container">
     <h1>GO导航</h1>
-    <!-- <form action="http://www.baidu.com/s" target="_blank" method="GET">
-      <input type=text name=wd size=40><input type="submit" value="百度搜索">
-     </form>
-     <form method=get action="http://google.com/search?output=toolbar&q=%1"  target="_blank">
-      <input type=text name=q size=40 maxlength=255 value=""><input type=submit name=btnG value="谷歌搜索">
-     </form> -->
-    <div class="anchor_block">
+    <form action="https://www.baidu.com/s" target="_blank" method="GET">
+      <input type=text name=wd class="search" placeholder="百度搜索" autocomplete="off">
+      <input type="submit" value="百度搜索" class="btn">
+      <div class="s_btn">
+        <span class="current">百度搜索</span>
+        <span>谷歌搜索</span>
+        <span>必应搜索</span>
+        <span>搜狗搜索</span>
+        <span>好搜搜索</span>
+        <span>百度搜索</span>
+      </div>
+    </form>
+
+    <!-- 锚点区 -->
+    <div class="anchor">
       <ul class="clearfix">
         <li>
           <a href="javascript:void(0)">
@@ -110,33 +118,216 @@
       </ul>
     </div>
 
-    <div class="main_block">
-      <div class="mb_header">
+    <!-- 常用网址区 -->
+    <div class="common">
+      <div class="header">
+        <h3>常用网址</h3>
+      </div>
+      <div class="content">
         <ul class="clearfix">
-          <li>常用网址</li>
-          <li>常用网址</li>
-          <li>常用网址</li>
-          <li>常用网址</li>
-          <li>常用网址</li>
-          <li>常用网址</li>
-          <li>常用网址</li>
-          <li>常用网址</li>
-          <li>常用网址</li>
-          <li>常用网址</li>
+          <li>
+            <a href="">新浪微博</a>
+          </li>
+          <li>
+            <a href="">知乎</a>
+          </li>
+          <li>
+            <a href="">网易云音乐</a>
+          </li>
+          <li>
+            <a href="">QQ音乐</a>
+          </li>
+          <li>
+            <a href="">QQ空间</a>
+          </li>
+          <li>
+            <a href="">QQ邮箱</a>
+          </li>
+          <li>
+            <a href="">搜狐</a>
+          </li>
+          <li>
+            <a href="">腾讯</a>
+          </li>
+          <li>
+            <a href="">github</a>
+          </li>
+          <li>
+            <a href="">百度</a>
+          </li>
+        </ul>
+        <ul class="clearfix">
+          <li>
+            <a href="">豆瓣</a>
+          </li>
+          <li>
+            <a href="">163邮箱</a>
+          </li>
+          <li>
+            <a href="">Segmentfault</a>
+          </li>
+          <li>
+            <a href="">v2ex</a>
+          </li>
+          <li>
+            <a href="">简书</a>
+          </li>
+          <li>
+            <a href="">掘金</a>
+          </li>
+          <li>
+            <a href="">开源中国</a>
+          </li>
+          <li>
+            <a href="">今日头条</a>
+          </li>
+          <li>
+            <a href="">虎嗅</a>
+          </li>
+          <li>
+            <a href="">淘宝</a>
+          </li>
         </ul>
       </div>
-      <div class="mb_content">
-        <div>1</div>
-        <div>2</div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+    </div>
+
+    <!-- 类别区 -->
+    <div class="classify clearfix">
+      <div class="category">
+        <div class="c_header">
+          <h3>影音专区</h3>
+        </div>
+        <ul class="c_content">
+          <li class="current">在线影视</li>
+          <li>BT影视</li>
+          <li>影视下载</li>
+          <li>高清蓝光</li>
+          <li>美剧在线</li>
+          <li>美剧在线</li>
+          <li>美剧在线</li>
+        </ul>
       </div>
+
+      <div class="site">
+        <div class="s_header">
+          <h3>在线影视</h3>
+        </div>
+        <div class="s_content">
+          <ul class="clearfix">
+            <li>
+              <a href="">vip视频解析</a>
+            </li>
+            <li>
+              <a href="">看看屋</a>
+            </li>
+            <li>
+              <a href="">拉里拉里</a>
+            </li>
+            <li>
+              <a href="">去看TV网</a>
+            </li>
+            <li>
+              <a href="">骑士电影</a>
+            </li>
+            <li>
+              <a href="">新视觉影院</a>
+            </li>
+            <li>
+              <a href="">降龙影院</a>
+            </li>
+            <li>
+              <a href="">无敌电影</a>
+            </li>
+            <li>
+              <a href="">神马电影</a>
+            </li>
+            <li>
+              <a href=""></a>
+            </li>
+          </ul>
+          <ul class="clearfix">
+            <li>
+              <a href="">BT之家</a>
+            </li>
+            <li>
+              <a href="">BT吧</a>
+            </li>
+            <li>
+              <a href="">BT人人</a>
+            </li>
+            <li>
+              <a href="">MAG磁力</a>
+            </li>
+            <li>
+              <a href="">片源网</a>
+            </li>
+            <li>
+              <a href="">电影街</a>
+            </li>
+            <li>
+              <a href="">BT首发论坛</a>
+            </li>
+            <li>
+              <a href="">燕子BT</a>
+            </li>
+            <li>
+              <a href="">猪猪乐园</a>
+            </li>
+            <li>
+              <a href="">哔嘀影视</a>
+            </li>
+            <li>
+              <a href="">Kickass</a>
+            </li>
+          </ul>
+          <ul class="clearfix">
+            <li>
+              <a href="">电影天堂</a>
+            </li>
+            <li>
+              <a href="">蓝光电影</a>
+            </li>
+            <li>
+              <a href="">阳关电影</a>
+            </li>
+            <li>
+              <a href="">高清MP4</a>
+            </li>
+            <li>
+              <a href="">圣城影视</a>
+            </li>
+            <li>
+              <a href="">电影港</a>
+            </li>
+            <li>
+              <a href="">龙部落</a>
+            </li>
+            <li>
+              <a href="">中国高清网</a>
+            </li>
+            <li>
+              <a href="">思雨电影</a>
+            </li>
+            <li>
+              <a href="">电驴大全</a>
+            </li>
+            <li>
+              <a href="">打得开</a>
+            </li>
+            <li>
+              <a href="">电影首发站</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div>
+      <br>
+      <br>
+      <br>
     </div>
   </div>
   <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
